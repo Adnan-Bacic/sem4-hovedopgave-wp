@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+h1, h2, h3, h4, h5, h6{
+	font-family: inherit;
+}
+p{
+	//color: black;
+	line-height: 30px;
+}
+
+//navbar links
+.navbar-wp .navbar-nav > li> a {
+	text-transform: none;
+}

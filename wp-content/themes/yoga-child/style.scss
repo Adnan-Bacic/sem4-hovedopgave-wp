@@ -1,0 +1,28 @@
+/*
+ Theme Name:   Yoga Child
+ Theme URI:    http://example.com/yoga-child/
+ Description:  Yoga Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     yoga
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  yoga-child
+*/
+
+//Setting variables and reseting document
+@import 'scss/_variables.scss';
+@import 'scss/_reset.scss';
+
+//Content
+@import 'scss/_fonts.scss';
+@import 'scss/_navbar.scss';
+@import 'scss/_buttons.scss';
+@import 'scss/_slider.scss';
+@import 'scss/_links.scss';
+
+//Responsive
+@import 'scss/_tablet.scss';
+@import 'scss/_mobile.scss';

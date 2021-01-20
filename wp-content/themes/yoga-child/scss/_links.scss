@@ -1,0 +1,28 @@
+p > a{
+	color: $contact!important;
+	font-weight: bold;
+	transition: 0.5s;
+	&:hover{
+		color: $contact-hover!important;
+	}
+}
+//footer link
+.textwidget > p > a {
+	color: $contact!important;
+	font-weight: bold;
+	transition: 0.5s;
+	
+	&:hover{
+		color: $contact-hover!important;
+	}
+}
+h1 > a {
+	color: $primary!important;
+	transition: 0.5s;
+	&:hover{
+		color: $primary-hover!important;
+	}
+}
+h2 > span{
+	color: $primary!important;
+}

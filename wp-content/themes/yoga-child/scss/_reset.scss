@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html {
+  overflow-y: scroll;
+}
+//remove comment area
+.comments-area{
+	display: none;
+}
+
+//remove author from page when searched for
+.yoga-blog-category{
+	display: none;
+}
+
+//remove padding pushing content down
+#content{
+	padding: 0px;
+}

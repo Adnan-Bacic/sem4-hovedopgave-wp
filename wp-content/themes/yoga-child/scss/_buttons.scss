@@ -1,0 +1,65 @@
+//contact form
+.wpforms-submit{
+	background-color: $primary!important;
+	color: white!important;
+	border: none!important;
+	font-weight: bold;
+	border-radius: 20px 20px 20px 20px!important;
+	float: right!important;
+	padding: 15px 0px 15px 0px!important;
+	width: 100%!important;
+	transition: background-color 0.5s ease;
+ 	&:hover{
+	background-color: $primary-hover!important;
+	}
+}
+
+//?
+#fbuilder .pbreak .pbPrevious, .pbreak .pbNext, .pbSubmit{
+	background-color: $primary!important;
+	color: white!important;
+	border: none!important;
+	font-weight: bold;
+	border-radius: 20px 20px 20px 20px!important;
+	padding: 15px 40px 15px 40px!important;
+	
+	transition: background-color 0.5s ease;
+	&:hover{
+		background-color: $primary-hover!important;
+	}
+}
+
+//scroll to top btn
+.ta_upscr{
+	background-color: $primary!important;
+	
+	transition: background-color 0.5s ease;
+	
+	&:hover{
+		background-color: $primary-hover!important;
+	}
+}
+
+//footer search
+footer .yoga-widget.widget_search .btn {
+	height: 34px;
+	background: $primary!important;
+	border: 0!important;
+	
+	&:hover{
+	height: 34px;
+	background: $primary-hover!important;
+	border: 0!important;
+	}
+}
+
+.btn{
+	background: $primary!important;
+	
+	&:hover{
+	background: $primary-hover!important;
+	}
+}
+.btn-theme{
+	border: none;
+}
